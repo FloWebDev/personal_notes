@@ -27,6 +27,11 @@ Si besoin, en cas de changement de version de PHP ou réinstallation de Composer
 * Pour un microservice, une application/API : `composer create-project symfony/skeleton my_project`
 * Pour installer un projet Symfony 3.4 : `composer create-project symfony/framework-standard-edition my_project "3.4.*"`
 
+| Symfony 3 | Symfony 4 |
+| - | - |
+| web | public |
+| app | src |
+
 ## Démarrer un serveur en local
 
 * `bin/console server:run` ou `php bin/console server:run` (la mention php est facultative)
@@ -68,4 +73,4 @@ Si besoin, en cas de changement de version de PHP ou réinstallation de Composer
 3. Créer une nouvelle migration basée sur les changements de la BDD : `bin/console make:migration`
 4. Exécuter une migration : `bin/console doctrine:migration:migrate` ou  pour spécifier une migration avec un alias `bin/console doctrine:migrations:migrate prev` (alias possibles : first, latest, prev, current and next)
 
-Si reprise d'un projet en cours, simplemen effectuer l'étape **1** et **4**.
+Si reprise d'un projet en cours, effectuer simplement les étapes **1** et **4**.
