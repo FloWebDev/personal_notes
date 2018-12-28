@@ -71,6 +71,6 @@ Si besoin, en cas de changement de version de PHP ou réinstallation de Composer
 1. Après avoir renseigné les informations dans le fichier **.env** : `bin/console doctrine:database:create`
 2. Créer ou mettre à jour une entité : `bin/console make:entity` avec si besoin `bin/console make:entity --help` et pour écraser toutes les méthode existantes : `bin/console make:entity --regenerate --overwrite`
 3. Créer une nouvelle migration basée sur les changements de la BDD : `bin/console make:migration`
-4. Exécuter une migration : `bin/console doctrine:migration:migrate` ou  pour spécifier une migration avec un alias `bin/console doctrine:migrations:migrate prev` (alias possibles : first, latest, prev, current and next)
+4. Exécuter une migration : `bin/console doctrine:migration:migrate` ou  pour spécifier une migration avec un alias `bin/console doctrine:migration:migrate prev` (alias possibles : first, latest, prev, current and next)
 
 Si reprise d'un projet en cours, effectuer simplement les étapes **1** et **4**.
