@@ -1,0 +1,4 @@
+alias chphp='sudo update-alternatives --config php'
+alias np='/mnt/c/Program\ Files\ \(x86\)/Notepad++/notepad++.exe'
+alias sqlb='"/mnt/c/Program Files (x86)/DB Browser for SQLite/DB Browser for SQLite.exe"'
+alias vscode='"/mnt/c/Users/mathe/AppData/Local/Programs/Microsoft VS Code/Code.exe"'
