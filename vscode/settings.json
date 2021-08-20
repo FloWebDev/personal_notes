@@ -6,12 +6,14 @@
         "@PSR2": true,
         "array_indentation": true,
         "binary_operator_spaces": {
-            "align_double_arrow": true,
-            "align_equals": true,
-        },
+            "operators": {
+                "=>": "align_single_space_minimal",
+                "=": "align_single_space_minimal"
+            }
+        }
     },
     "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1622672168052,
+    "php-cs-fixer.lastDownload": 1629476037656,
     "[php]": {
         "editor.defaultFormatter": "junstyle.php-cs-fixer",
         "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?"
@@ -25,6 +27,7 @@
     "editor.detectIndentation": false,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
+    "intelephense.environment.phpVersion": "8.0",
     "php-cs-fixer.onsave": true,
     "php.suggest.basic": false,
     "[jsonc]": {
